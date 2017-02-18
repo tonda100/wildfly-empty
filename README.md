@@ -1,4 +1,4 @@
-#Empty Wildfly application server
+## Empty Wildfly application server
 
 This image contains empty Wildfly 10.1 server.
 What is added in comparison to jboss/wildfly:10.1.0.Final
@@ -10,8 +10,4 @@ Can be started with command:
 
 `docker run -d --name wildfly -p 8080:8080 tonda100/wildfly-empty`
 
-##Building of an image
-
-Clone the repository from [GitHub](https://github.com/tonda100/wildfly-empty)
-
-`docker build -t tonda100/wildfly-empty .`
+Project is vailable on [GitHub](https://github.com/tonda100/wildfly-empty)
